@@ -1,1 +1,60 @@
 
+body{
+    font-family: Candela, Caviar Dreams, sans-serif;
+}
+
+
+
+h1{
+    font-size:250%;
+
+}
+h2{
+    font-size:150%;
+}
+h3{
+    font-size:100%;
+}
+
+.welcome::first-letter { 
+    font-size: 250%;
+    color: black;
+    
+}
+
+.pumpkinpic{
+    float: left;   
+}
+
+.halloweentitle {
+    font-family: sans-serif;
+    color: orange;
+    text-indent: 50px;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+}
+.subhead{
+    text-indent:50px;
+}
+li{
+    margin: .3em;
+    color:black;
+}
+.listlinks{
+    color:orange;
+    font-weight:bold;
+    
+}
+
+a:link{
+    color:orange;
+}
+
+a:hover {
+    color: green;
+}
+
+footer{
+    font-size: 80%;
+    text-align: center;
+}
