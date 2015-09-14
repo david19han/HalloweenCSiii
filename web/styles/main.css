@@ -1,19 +1,36 @@
 
+html{
+    background-image: url(../images/bats.gif);
+   
+}
+
+header{
+    border-bottom: solid black;
+    background: linear-gradient(45deg, orange, black); 
+    
+}
+
+
 body{
     font-family: Candela, Caviar Dreams, sans-serif;
+    
+    background-color:white;
+    margin: 0 auto; 
+    width: 800px;
+    border: solid black;
+    box-shadow: 10px 10px 10px black;
+    
+   
 }
 
 
-
-h1{
-    font-size:250%;
-
-}
 h2{
     font-size:150%;
+    margin-left:15px;
 }
 h3{
     font-size:100%;
+    margin-left:15px;
 }
 
 .welcome::first-letter { 
@@ -22,19 +39,32 @@ h3{
     
 }
 
+p{
+    margin-left:15px;
+}
 .pumpkinpic{
     float: left;   
 }
 
 .halloweentitle {
     font-family: sans-serif;
-    color: orange;
-    text-indent: 50px;
-    font-style: italic;
-    text-shadow: 2px 2px black;
+    font-size:250%;
+    /* color: orange; */
+    text-indent: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom:0px;
+    /* font-style: italic; */
+    /* text-shadow: 2px 2px black; */
 }
 .subhead{
-    text-indent:50px;
+    text-indent:20px;
+    font-weight: bold;
+    font-size: 125%;
+    padding-top:0px;
+    margin-top:-18px;
+    
 }
 li{
     margin: .3em;
@@ -57,4 +87,11 @@ a:hover {
 footer{
     font-size: 80%;
     text-align: center;
+    border-top: solid black;
+    background: linear-gradient(45deg, black, orange); 
+    height: 50px;
+}
+
+.copyright{
+    padding-top: 15px;
 }
