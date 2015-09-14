@@ -1,26 +1,24 @@
 
 html{
     background-image: url(../images/bats.gif);
-   
+
 }
 
 header{
     border-bottom: solid black;
     background: linear-gradient(45deg, orange, black); 
-    
+
 }
 
 
 body{
     font-family: Candela, Caviar Dreams, sans-serif;
-    
     background-color:white;
     margin: 0 auto; 
     width: 800px;
     border: solid black;
-    box-shadow: 10px 10px 10px black;
-    
-   
+    box-shadow: -5px 25px 30px black;
+
 }
 
 
@@ -36,7 +34,7 @@ h3{
 .welcome::first-letter { 
     font-size: 250%;
     color: black;
-    
+
 }
 
 p{
@@ -64,32 +62,41 @@ p{
     font-size: 125%;
     padding-top:0px;
     margin-top:-18px;
-    
+
 }
 li{
     margin: .3em;
     color:black;
 }
 .listlinks{
+    padding-top:15px;
     color:orange;
     font-weight:bold;
-    
+    float:left;
+    width: 160px;
+    height:550px;
+
 }
 
 a:link{
     color:orange;
+    font-weight:bold;
 }
 
 a:hover {
     color: green;
 }
 
+
+
 footer{
+
     font-size: 80%;
     text-align: center;
     border-top: solid black;
     background: linear-gradient(45deg, black, orange); 
     height: 50px;
+    clear: both;
 }
 
 .copyright{
