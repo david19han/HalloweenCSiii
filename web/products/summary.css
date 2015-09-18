@@ -16,24 +16,34 @@ header{
     color:white;
     padding: 10px 0px;
 }
-.navigation a{
-    color:white;
-}
-table a:link{
+
+
+
+.navigation table a:link{
     color:white;
     text-decoration:none;
     list-style-type:none;
     padding:10px 38px;
 }
 
-table a:hover{
+.navigation a{
+    color:white;
+}
+.navigation table a:hover{
     background-color:gray;
     color:black;
 }
 
-table, th, td {
+.navigation table, th, td {
    
     border-collapse: collapse;
+}
+#productlist a:link{
+    color:orange;
+}
+
+#home a:link{
+    color:white;
 }
 
 body{
@@ -158,6 +168,62 @@ ul a:hover {
     padding-right:50px;
 }
 
+#plisttitle{
+    width:100%;
+}
+
+#plist {
+  float: left;
+  margin: .8em .9em 1.0em;
+  width: 600px;
+}
+#plist a{
+    color:black;
+}
+#plist table{
+  width: 80%;
+  padding-left: 1.5em;
+  border-collapse: collapse;
+}
+
+#plist h2{
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 0;
+  padding: .75em 10em;
+}
+
+#plist thead th:first-child {
+  width: 40%;
+  text-align: left;
+}
+#plist th {
+  padding-bottom: .5em;
+}
+#plist td {
+  text-align: left;
+  padding-bottom: .5em;
+}
+#plist thead th:nth-child(2) {
+  width: 60%;
+  text-align: left;
+}
+#plist thead th:last-child {
+  width: 10%;
+  text-align: right;
+  background-color: #F5DEB3;
+  padding-left: 3em;
+}
+#plist tbody td:last-child {
+  text-align: right;
+  background: #F5DEB3;
+  border-bottom-color: #F5DEB3;
+}
+
+.category {
+  vertical-align: top;
+  font-weight: bold;
+}
 footer{
 
     font-size: 80%;
@@ -171,3 +237,4 @@ footer{
 .copyright{
     padding-top: 15px;
 }
+
