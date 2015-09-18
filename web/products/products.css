@@ -30,8 +30,7 @@ table a:hover{
 }
 
 table, th, td {
-    //background-color:black;
-    //color:white;
+   
     border-collapse: collapse;
 }
 
@@ -66,14 +65,11 @@ p{
 .halloweentitle {
     font-family: sans-serif;
     font-size:250%;
-    /* color: orange; */
     text-indent: 20px;
     font-weight: bold;
     padding-top: 10px;
     padding-bottom: 0px;
     margin-bottom:0px;
-    /* font-style: italic; */
-    /* text-shadow: 2px 2px black; */
 }
 .subhead{
     text-indent:20px;
@@ -84,7 +80,7 @@ p{
 
 }
 
-li{
+#leftsidebar li{
     margin: .3em;
     color:black;
     list-style-type:none;
@@ -92,9 +88,9 @@ li{
     background:orange;
     padding-left: .75em;
     padding-right: .2em;
-    //float:left;
+ 
 }
-.listlinks{
+#leftsidebar{
     list-style-type: none;
     text-decoration:none;
     padding-top:15px;
@@ -103,21 +99,21 @@ li{
     font-weight:bold;
     float:left;
     width: 160px;
-    height:500px;  
+    height:375px;  
     padding-left:0;
     margin-left:0;
     line-height: 2em;
     text-decoration: none;
 }
-ul{
+#leftsidebar ul{
     padding-left:5px;
 }
-a:link{
+#leftsidebar a:link{
     color:orange;
     
 }
 
-ul a:link{
+#leftsidebar ul a:link{
     color:black;
     background-color:orange;
     text-decoration:none;
@@ -127,6 +123,37 @@ ul a:link{
 
 ul a:hover {
     color:green;
+}
+#rightsidebar{
+    float:right;
+    width:180px;
+    height:390px;
+    background-color:#F5DEB3;
+    text-decoration:none;
+    list-style-type:none;
+    
+}
+
+#rightsidebar h2{
+    font-size: 15px;
+    font-weight:bold;
+}
+#rightsidebar ul,a:link{
+    list-style-type:none;
+    color:black;
+    
+}
+#rightsidebar ul{
+   padding-left:40px;
+}
+
+#rightsidebar img{
+    padding:10px 5px;
+}
+.catpic{
+    float:left;
+    height:100px; 
+    padding-right:50px;
 }
 
 footer{
